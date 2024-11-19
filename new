@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employment Skills Resources</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Employment Skills Resources</h1>
+        <nav>
+            <ul>
+                <li><a href="#resume-tips">Resume Writing Tips</a></li>
+                <li><a href="#career-questions">Career Questions</a></li>
+                <li><a href="#career-quiz">Find Your Career</a></li>
+                <li><a href="#interview-questions">Interview Questions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="resume-tips">
+        <h2>Resume Writing Tips</h2>
+        <ul>
+            <li>Keep your resume clear and concise (1-2 pages).</li>
+            <li>Use a professional email address.</li>
+            <li>Include a summary at the top, highlighting your key strengths.</li>
+            <li>Focus on quantifiable achievements.</li>
+            <li>Tailor your resume to the job description.</li>
+            <li>Use action verbs and avoid buzzwords.</li>
+            <li>Ensure proper formatting for readability.</li>
+        </ul>
+    </section>
+
+    <section id="career-questions">
+        <h2>Common Career Questions</h2>
+        <ol>
+            <li>What are your career goals?</li>
+            <li>What motivates you to succeed?</li>
+            <li>Where do you see yourself in 5 years?</li>
+            <li>What skills do you want to develop?</li>
+            <li>What’s your work style?</li>
+            <li>Why did you choose this field?</li>
+            <li>What are your biggest strengths and weaknesses?</li>
+        </ol>
+    </section>
+
+    <section id="career-quiz">
+        <h2>What Career is Best for You?</h2>
+        <p>Answer the following questions to get career suggestions based on your choices.</p>
+        <form id="career-quiz-form">
+            <label for="work-environment">Which work environment do you prefer?</label><br>
+            <input type="radio" name="environment" value="office" required> Office<br>
+            <input type="radio" name="environment" value="outdoor"> Outdoor<br>
+            <input type="radio" name="environment" value="remote"> Remote<br><br>
+
+            <label for="team-work">Do you prefer working in teams?</label><br>
+            <input type="radio" name="team-work" value="yes" required> Yes<br>
+            <input type="radio" name="team-work" value="no"> No<br><br>
+
+            <button type="submit">Get Career Suggestion</button>
+        </form>
+        <div id="career-result"></div>
+    </section>
+
+    <section id="interview-questions">
+        <h2>Common Interview Questions and Answers</h2>
+        <ul>
+            <li><strong>Tell me about yourself?</strong><br>
+                <em>Answer Tip:</em> Keep it short and professional. Mention your background, skills, and career goals.
+            </li>
+            <li><strong>Why do you want to work here?</strong><br>
+                <em>Answer Tip:</em> Show that you’ve researched the company and align your values with theirs.
+            </li>
+            <li><strong>Why should we hire you?</strong><br>
+                <em>Answer Tip:</em> Highlight your unique skills and how they fit the job requirements.
+            </li>
+            <li><strong>What’s your biggest strength?</strong><br>
+                <em>Answer Tip:</em> Provide examples of how your strengths have helped in previous roles.
+            </li>
+            <li><strong>Tell me about a challenge you've faced and how you overcame it?</strong><br>
+                <em>Answer Tip:</em> Show problem-solving skills and how you handle adversity.
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Employment Skills Resources</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
